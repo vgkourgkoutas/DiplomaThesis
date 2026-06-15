@@ -1,0 +1,48 @@
+# data path
+data_type: "single"
+data_root: "/scratch/up1084667/MyThesis/DFEW_Dataset"
+work_dir: "./work_dir/mc3_18"
+
+num_epoch: 30           
+batch_size: 32          
+num_workers: 8
+
+# Model Settings
+model_name: "mc3_18"    
+num_classes: 7
+model_pretrain: True    
+model_init: False
+
+# Input Settings
+nframe: 16              
+size_Resize_te: 112     
+isconsecutive: False
+
+loss_type: "WCEL"
+
+# Optimizer & Scheduler
+optimizer: "SGD"
+lr_init: 0.001           # Κλασικό LR για ResNet-based video models
+weight_decay: 0.0005
+lr_strategy: True
+scheduler: "StepLR"
+step_size: 10
+lr_gamma: 0.1
+
+# Augmentation (Ρυθμισμένα για 112x112)
+train_data_augment: True
+Flag_RandomRotation: True
+degree_RandomRotation: 10
+
+Flag_RandomResizedCrop: True
+size_RandomResizedCrop: 112     
+
+Flag_RandomHorizontalFlip: True
+prob_RandomHorizontalFlip: 0.5
+Flag_RandomVerticalFlip: False
+
+Flag_CenterCrop: False
+size_CenterCrop: 112            
+Flag_RamdomErasing: False
+prob_RandomErasing: 0.
+Flag_Resize_te: True
