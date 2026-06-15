@@ -1,0 +1,60 @@
+[Sun Jun  7 12:57:40 2026] >>> [INFO] Χρήση Weighted CEL (WCEL) - Δυναμικά Βάρη Fold 5: [ 0.684  0.882  0.626  0.769  1.137 11.528  1.852]
+[Sun Jun  7 12:57:40 2026] 
+=======================================================
+[Sun Jun  7 12:57:40 2026] --- ΒΑΣΙΚΕΣ ΡΥΘΜΙΣΕΙΣ ΠΕΙΡΑΜΑΤΟΣ ---
+[Sun Jun  7 12:57:40 2026] Μοντέλο    : videomae
+[Sun Jun  7 12:57:40 2026] Optimizer  : Adam (LR: 1e-05)
+[Sun Jun  7 12:57:40 2026] Scheduler  : StepLR
+[Sun Jun  7 12:57:40 2026] Αξιολόγηση : TEN-CROP (10 Crops)
+[Sun Jun  7 12:57:40 2026] =======================================================
+
+[Sun Jun  7 13:20:07 2026] [Train] epo:1/25, batch_idx_tr:1171/1171, running_loss_tr:1.63, train acc:40.47%
+[Sun Jun  7 13:33:04 2026] [Test] epo:1/25, batch_idx_tr:1171/1171, WAR_te:42.12%, UAR_te:38.30%
+[Sun Jun  7 13:51:42 2026] [Train] epo:2/25, batch_idx_tr:1171/1171, running_loss_tr:1.29, train acc:54.99%
+[Sun Jun  7 14:04:26 2026] [Test] epo:2/25, batch_idx_tr:1171/1171, WAR_te:42.94%, UAR_te:39.61%
+[Sun Jun  7 14:23:04 2026] [Train] epo:3/25, batch_idx_tr:1171/1171, running_loss_tr:1.18, train acc:58.06%
+[Sun Jun  7 14:35:47 2026] [Test] epo:3/25, batch_idx_tr:1171/1171, WAR_te:50.77%, UAR_te:44.85%
+[Sun Jun  7 14:54:25 2026] [Train] epo:4/25, batch_idx_tr:1171/1171, running_loss_tr:1.07, train acc:61.82%
+[Sun Jun  7 15:07:09 2026] [Test] epo:4/25, batch_idx_tr:1171/1171, WAR_te:56.46%, UAR_te:48.00%
+[Sun Jun  7 15:25:48 2026] [Train] epo:5/25, batch_idx_tr:1171/1171, running_loss_tr:0.96, train acc:64.88%
+[Sun Jun  7 15:38:30 2026] [Test] epo:5/25, batch_idx_tr:1171/1171, WAR_te:51.07%, UAR_te:46.01%
+[Sun Jun  7 15:57:08 2026] [Train] epo:6/25, batch_idx_tr:1171/1171, running_loss_tr:0.87, train acc:68.37%
+[Sun Jun  7 16:09:52 2026] [Test] epo:6/25, batch_idx_tr:1171/1171, WAR_te:58.13%, UAR_te:50.20%
+[Sun Jun  7 16:28:31 2026] [Train] epo:7/25, batch_idx_tr:1171/1171, running_loss_tr:0.79, train acc:70.72%
+[Sun Jun  7 16:41:12 2026] [Test] epo:7/25, batch_idx_tr:1171/1171, WAR_te:60.92%, UAR_te:50.12%
+[Sun Jun  7 16:59:50 2026] [Train] epo:8/25, batch_idx_tr:1171/1171, running_loss_tr:0.71, train acc:74.02%
+[Sun Jun  7 17:12:35 2026] [Test] epo:8/25, batch_idx_tr:1171/1171, WAR_te:60.32%, UAR_te:52.16%
+[Sun Jun  7 17:31:13 2026] [Train] epo:9/25, batch_idx_tr:1171/1171, running_loss_tr:0.63, train acc:76.34%
+[Sun Jun  7 17:43:58 2026] [Test] epo:9/25, batch_idx_tr:1171/1171, WAR_te:56.51%, UAR_te:49.82%
+[Sun Jun  7 18:02:36 2026] [Train] epo:10/25, batch_idx_tr:1171/1171, running_loss_tr:0.55, train acc:78.78%
+[Sun Jun  7 18:15:19 2026] [Test] epo:10/25, batch_idx_tr:1171/1171, WAR_te:58.90%, UAR_te:51.17%
+[Sun Jun  7 18:33:57 2026] [Train] epo:11/25, batch_idx_tr:1171/1171, running_loss_tr:0.49, train acc:81.37%
+[Sun Jun  7 18:46:42 2026] [Test] epo:11/25, batch_idx_tr:1171/1171, WAR_te:56.89%, UAR_te:51.71%
+[Sun Jun  7 19:05:20 2026] [Train] epo:12/25, batch_idx_tr:1171/1171, running_loss_tr:0.42, train acc:84.34%
+[Sun Jun  7 19:18:05 2026] [Test] epo:12/25, batch_idx_tr:1171/1171, WAR_te:61.17%, UAR_te:52.21%
+[Sun Jun  7 19:36:44 2026] [Train] epo:13/25, batch_idx_tr:1171/1171, running_loss_tr:0.37, train acc:85.79%
+[Sun Jun  7 19:49:27 2026] [Test] epo:13/25, batch_idx_tr:1171/1171, WAR_te:60.87%, UAR_te:52.04%
+[Sun Jun  7 20:08:05 2026] [Train] epo:14/25, batch_idx_tr:1171/1171, running_loss_tr:0.31, train acc:88.17%
+[Sun Jun  7 20:20:50 2026] [Test] epo:14/25, batch_idx_tr:1171/1171, WAR_te:63.48%, UAR_te:52.33%
+[Sun Jun  7 20:39:29 2026] [Train] epo:15/25, batch_idx_tr:1171/1171, running_loss_tr:0.29, train acc:89.19%
+[Sun Jun  7 20:52:12 2026] [Test] epo:15/25, batch_idx_tr:1171/1171, WAR_te:61.60%, UAR_te:51.31%
+[Sun Jun  7 21:10:50 2026] [Train] epo:16/25, batch_idx_tr:1171/1171, running_loss_tr:0.24, train acc:90.72%
+[Sun Jun  7 21:23:34 2026] [Test] epo:16/25, batch_idx_tr:1171/1171, WAR_te:62.07%, UAR_te:50.80%
+[Sun Jun  7 21:42:11 2026] [Train] epo:17/25, batch_idx_tr:1171/1171, running_loss_tr:0.21, train acc:92.12%
+[Sun Jun  7 21:54:55 2026] [Test] epo:17/25, batch_idx_tr:1171/1171, WAR_te:62.29%, UAR_te:52.28%
+[Sun Jun  7 22:13:33 2026] [Train] epo:18/25, batch_idx_tr:1171/1171, running_loss_tr:0.19, train acc:92.89%
+[Sun Jun  7 22:26:33 2026] [Test] epo:18/25, batch_idx_tr:1171/1171, WAR_te:63.96%, UAR_te:53.74%
+[Sun Jun  7 22:45:11 2026] [Train] epo:19/25, batch_idx_tr:1171/1171, running_loss_tr:0.19, train acc:92.90%
+[Sun Jun  7 22:57:55 2026] [Test] epo:19/25, batch_idx_tr:1171/1171, WAR_te:61.56%, UAR_te:51.25%
+[Sun Jun  7 23:16:32 2026] [Train] epo:20/25, batch_idx_tr:1171/1171, running_loss_tr:0.15, train acc:94.39%
+[Sun Jun  7 23:29:15 2026] [Test] epo:20/25, batch_idx_tr:1171/1171, WAR_te:61.90%, UAR_te:51.26%
+[Sun Jun  7 23:47:53 2026] [Train] epo:21/25, batch_idx_tr:1171/1171, running_loss_tr:0.13, train acc:94.90%
+[Mon Jun  8 00:00:35 2026] [Test] epo:21/25, batch_idx_tr:1171/1171, WAR_te:62.16%, UAR_te:52.23%
+[Mon Jun  8 00:19:13 2026] [Train] epo:22/25, batch_idx_tr:1171/1171, running_loss_tr:0.15, train acc:94.67%
+[Mon Jun  8 00:31:54 2026] [Test] epo:22/25, batch_idx_tr:1171/1171, WAR_te:64.51%, UAR_te:53.69%
+[Mon Jun  8 00:50:32 2026] [Train] epo:23/25, batch_idx_tr:1171/1171, running_loss_tr:0.13, train acc:95.09%
+[Mon Jun  8 01:03:14 2026] [Test] epo:23/25, batch_idx_tr:1171/1171, WAR_te:61.82%, UAR_te:51.59%
+[Mon Jun  8 01:21:52 2026] [Train] epo:24/25, batch_idx_tr:1171/1171, running_loss_tr:0.12, train acc:95.69%
+[Mon Jun  8 01:34:35 2026] [Test] epo:24/25, batch_idx_tr:1171/1171, WAR_te:60.96%, UAR_te:50.42%
+[Mon Jun  8 01:53:13 2026] [Train] epo:25/25, batch_idx_tr:1171/1171, running_loss_tr:0.12, train acc:95.53%
+[Mon Jun  8 02:05:54 2026] [Test] epo:25/25, batch_idx_tr:1171/1171, WAR_te:62.46%, UAR_te:51.75%

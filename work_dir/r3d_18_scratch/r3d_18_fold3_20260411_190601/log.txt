@@ -1,0 +1,110 @@
+[Sat Apr 11 19:06:02 2026] Initilize: 1. Conv2d & Linear with kaiming_normal_ 2. BatchNorm2d with constant
+[Sat Apr 11 19:06:02 2026] 
+=======================================================
+[Sat Apr 11 19:06:02 2026] --- ΒΑΣΙΚΕΣ ΡΥΘΜΙΣΕΙΣ ΠΕΙΡΑΜΑΤΟΣ ---
+[Sat Apr 11 19:06:02 2026] Μοντέλο    : r3d_18
+[Sat Apr 11 19:06:02 2026] Optimizer  : Adam (LR: 0.001)
+[Sat Apr 11 19:06:02 2026] Scheduler  : ExponentialLR
+[Sat Apr 11 19:06:02 2026] Αξιολόγηση : SINGLE CENTER-CROP (1 Crop)
+[Sat Apr 11 19:06:02 2026] =======================================================
+
+[Sat Apr 11 19:10:08 2026] [Train] epo:1/50, batch_idx_tr:293/293, running_loss_tr:1.90, train acc:21.06%
+[Sat Apr 11 19:10:25 2026] [Test] epo:1/50, batch_idx_tr:293/293, WAR_te:22.09%, UAR_te:14.68%
+[Sat Apr 11 19:13:45 2026] [Train] epo:2/50, batch_idx_tr:293/293, running_loss_tr:1.81, train acc:22.61%
+[Sat Apr 11 19:14:01 2026] [Test] epo:2/50, batch_idx_tr:293/293, WAR_te:20.98%, UAR_te:16.99%
+[Sat Apr 11 19:17:20 2026] [Train] epo:3/50, batch_idx_tr:293/293, running_loss_tr:1.80, train acc:23.23%
+[Sat Apr 11 19:17:35 2026] [Test] epo:3/50, batch_idx_tr:293/293, WAR_te:24.70%, UAR_te:16.16%
+[Sat Apr 11 19:20:55 2026] [Train] epo:4/50, batch_idx_tr:293/293, running_loss_tr:1.77, train acc:25.48%
+[Sat Apr 11 19:21:11 2026] [Test] epo:4/50, batch_idx_tr:293/293, WAR_te:26.11%, UAR_te:18.88%
+[Sat Apr 11 19:24:30 2026] [Train] epo:5/50, batch_idx_tr:293/293, running_loss_tr:1.75, train acc:27.30%
+[Sat Apr 11 19:24:47 2026] [Test] epo:5/50, batch_idx_tr:293/293, WAR_te:21.67%, UAR_te:19.13%
+[Sat Apr 11 19:28:06 2026] [Train] epo:6/50, batch_idx_tr:293/293, running_loss_tr:1.74, train acc:27.90%
+[Sat Apr 11 19:28:22 2026] [Test] epo:6/50, batch_idx_tr:293/293, WAR_te:25.98%, UAR_te:19.28%
+[Sat Apr 11 19:31:42 2026] [Train] epo:7/50, batch_idx_tr:293/293, running_loss_tr:1.72, train acc:28.00%
+[Sat Apr 11 19:31:57 2026] [Test] epo:7/50, batch_idx_tr:293/293, WAR_te:21.28%, UAR_te:15.15%
+[Sat Apr 11 19:35:17 2026] [Train] epo:8/50, batch_idx_tr:293/293, running_loss_tr:1.71, train acc:29.44%
+[Sat Apr 11 19:35:33 2026] [Test] epo:8/50, batch_idx_tr:293/293, WAR_te:28.38%, UAR_te:20.78%
+[Sat Apr 11 19:38:52 2026] [Train] epo:9/50, batch_idx_tr:293/293, running_loss_tr:1.68, train acc:31.21%
+[Sat Apr 11 19:39:08 2026] [Test] epo:9/50, batch_idx_tr:293/293, WAR_te:31.71%, UAR_te:22.94%
+[Sat Apr 11 19:42:28 2026] [Train] epo:10/50, batch_idx_tr:293/293, running_loss_tr:1.65, train acc:34.37%
+[Sat Apr 11 19:42:44 2026] [Test] epo:10/50, batch_idx_tr:293/293, WAR_te:36.79%, UAR_te:28.07%
+[Sat Apr 11 19:46:04 2026] [Train] epo:11/50, batch_idx_tr:293/293, running_loss_tr:1.55, train acc:39.67%
+[Sat Apr 11 19:46:20 2026] [Test] epo:11/50, batch_idx_tr:293/293, WAR_te:42.18%, UAR_te:30.44%
+[Sat Apr 11 19:49:39 2026] [Train] epo:12/50, batch_idx_tr:293/293, running_loss_tr:1.45, train acc:44.26%
+[Sat Apr 11 19:49:55 2026] [Test] epo:12/50, batch_idx_tr:293/293, WAR_te:41.50%, UAR_te:32.63%
+[Sat Apr 11 19:53:14 2026] [Train] epo:13/50, batch_idx_tr:293/293, running_loss_tr:1.39, train acc:46.87%
+[Sat Apr 11 19:53:30 2026] [Test] epo:13/50, batch_idx_tr:293/293, WAR_te:45.17%, UAR_te:35.11%
+[Sat Apr 11 19:56:49 2026] [Train] epo:14/50, batch_idx_tr:293/293, running_loss_tr:1.32, train acc:50.04%
+[Sat Apr 11 19:57:05 2026] [Test] epo:14/50, batch_idx_tr:293/293, WAR_te:28.50%, UAR_te:22.01%
+[Sat Apr 11 20:00:24 2026] [Train] epo:15/50, batch_idx_tr:293/293, running_loss_tr:1.25, train acc:52.73%
+[Sat Apr 11 20:00:40 2026] [Test] epo:15/50, batch_idx_tr:293/293, WAR_te:51.88%, UAR_te:40.90%
+[Sat Apr 11 20:03:59 2026] [Train] epo:16/50, batch_idx_tr:293/293, running_loss_tr:1.18, train acc:55.32%
+[Sat Apr 11 20:04:14 2026] [Test] epo:16/50, batch_idx_tr:293/293, WAR_te:46.84%, UAR_te:36.79%
+[Sat Apr 11 20:07:33 2026] [Train] epo:17/50, batch_idx_tr:293/293, running_loss_tr:1.11, train acc:58.27%
+[Sat Apr 11 20:07:50 2026] [Test] epo:17/50, batch_idx_tr:293/293, WAR_te:52.35%, UAR_te:44.08%
+[Sat Apr 11 20:11:09 2026] [Train] epo:18/50, batch_idx_tr:293/293, running_loss_tr:1.03, train acc:61.37%
+[Sat Apr 11 20:11:24 2026] [Test] epo:18/50, batch_idx_tr:293/293, WAR_te:56.50%, UAR_te:43.33%
+[Sat Apr 11 20:14:43 2026] [Train] epo:19/50, batch_idx_tr:293/293, running_loss_tr:0.94, train acc:64.74%
+[Sat Apr 11 20:14:59 2026] [Test] epo:19/50, batch_idx_tr:293/293, WAR_te:47.14%, UAR_te:38.05%
+[Sat Apr 11 20:18:18 2026] [Train] epo:20/50, batch_idx_tr:293/293, running_loss_tr:0.82, train acc:69.66%
+[Sat Apr 11 20:18:33 2026] [Test] epo:20/50, batch_idx_tr:293/293, WAR_te:51.24%, UAR_te:43.59%
+[Sat Apr 11 20:21:52 2026] [Train] epo:21/50, batch_idx_tr:293/293, running_loss_tr:0.68, train acc:74.25%
+[Sat Apr 11 20:22:08 2026] [Test] epo:21/50, batch_idx_tr:293/293, WAR_te:55.09%, UAR_te:43.60%
+[Sat Apr 11 20:25:27 2026] [Train] epo:22/50, batch_idx_tr:293/293, running_loss_tr:0.54, train acc:80.01%
+[Sat Apr 11 20:25:42 2026] [Test] epo:22/50, batch_idx_tr:293/293, WAR_te:45.98%, UAR_te:39.19%
+[Sat Apr 11 20:29:02 2026] [Train] epo:23/50, batch_idx_tr:293/293, running_loss_tr:0.36, train acc:86.92%
+[Sat Apr 11 20:29:18 2026] [Test] epo:23/50, batch_idx_tr:293/293, WAR_te:51.67%, UAR_te:43.76%
+[Sat Apr 11 20:32:37 2026] [Train] epo:24/50, batch_idx_tr:293/293, running_loss_tr:0.25, train acc:91.19%
+[Sat Apr 11 20:32:52 2026] [Test] epo:24/50, batch_idx_tr:293/293, WAR_te:52.26%, UAR_te:43.31%
+[Sat Apr 11 20:36:12 2026] [Train] epo:25/50, batch_idx_tr:293/293, running_loss_tr:0.18, train acc:93.28%
+[Sat Apr 11 20:36:27 2026] [Test] epo:25/50, batch_idx_tr:293/293, WAR_te:53.03%, UAR_te:42.21%
+[Sat Apr 11 20:39:46 2026] [Train] epo:26/50, batch_idx_tr:293/293, running_loss_tr:0.10, train acc:96.32%
+[Sat Apr 11 20:40:02 2026] [Test] epo:26/50, batch_idx_tr:293/293, WAR_te:54.74%, UAR_te:43.06%
+[Sat Apr 11 20:43:21 2026] [Train] epo:27/50, batch_idx_tr:293/293, running_loss_tr:0.14, train acc:95.06%
+[Sat Apr 11 20:43:37 2026] [Test] epo:27/50, batch_idx_tr:293/293, WAR_te:55.00%, UAR_te:44.58%
+[Sat Apr 11 20:46:56 2026] [Train] epo:28/50, batch_idx_tr:293/293, running_loss_tr:0.12, train acc:95.62%
+[Sat Apr 11 20:47:11 2026] [Test] epo:28/50, batch_idx_tr:293/293, WAR_te:52.86%, UAR_te:43.13%
+[Sat Apr 11 20:50:30 2026] [Train] epo:29/50, batch_idx_tr:293/293, running_loss_tr:0.07, train acc:97.50%
+[Sat Apr 11 20:50:47 2026] [Test] epo:29/50, batch_idx_tr:293/293, WAR_te:53.38%, UAR_te:44.80%
+[Sat Apr 11 20:54:06 2026] [Train] epo:30/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.50%
+[Sat Apr 11 20:54:22 2026] [Test] epo:30/50, batch_idx_tr:293/293, WAR_te:54.53%, UAR_te:44.83%
+[Sat Apr 11 20:57:41 2026] [Train] epo:31/50, batch_idx_tr:293/293, running_loss_tr:0.07, train acc:97.56%
+[Sat Apr 11 20:57:56 2026] [Test] epo:31/50, batch_idx_tr:293/293, WAR_te:54.44%, UAR_te:44.56%
+[Sat Apr 11 21:01:16 2026] [Train] epo:32/50, batch_idx_tr:293/293, running_loss_tr:0.07, train acc:97.36%
+[Sat Apr 11 21:01:31 2026] [Test] epo:32/50, batch_idx_tr:293/293, WAR_te:52.09%, UAR_te:41.84%
+[Sat Apr 11 21:04:50 2026] [Train] epo:33/50, batch_idx_tr:293/293, running_loss_tr:0.10, train acc:96.63%
+[Sat Apr 11 21:05:05 2026] [Test] epo:33/50, batch_idx_tr:293/293, WAR_te:49.87%, UAR_te:41.96%
+[Sat Apr 11 21:08:24 2026] [Train] epo:34/50, batch_idx_tr:293/293, running_loss_tr:0.07, train acc:97.52%
+[Sat Apr 11 21:08:40 2026] [Test] epo:34/50, batch_idx_tr:293/293, WAR_te:51.75%, UAR_te:43.44%
+[Sat Apr 11 21:11:59 2026] [Train] epo:35/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.46%
+[Sat Apr 11 21:12:14 2026] [Test] epo:35/50, batch_idx_tr:293/293, WAR_te:54.40%, UAR_te:44.34%
+[Sat Apr 11 21:15:33 2026] [Train] epo:36/50, batch_idx_tr:293/293, running_loss_tr:0.06, train acc:97.83%
+[Sat Apr 11 21:15:49 2026] [Test] epo:36/50, batch_idx_tr:293/293, WAR_te:53.38%, UAR_te:43.59%
+[Sat Apr 11 21:19:08 2026] [Train] epo:37/50, batch_idx_tr:293/293, running_loss_tr:0.06, train acc:97.67%
+[Sat Apr 11 21:19:24 2026] [Test] epo:37/50, batch_idx_tr:293/293, WAR_te:55.68%, UAR_te:44.13%
+[Sat Apr 11 21:22:43 2026] [Train] epo:38/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.16%
+[Sat Apr 11 21:22:59 2026] [Test] epo:38/50, batch_idx_tr:293/293, WAR_te:49.74%, UAR_te:41.95%
+[Sat Apr 11 21:26:18 2026] [Train] epo:39/50, batch_idx_tr:293/293, running_loss_tr:0.06, train acc:98.09%
+[Sat Apr 11 21:26:34 2026] [Test] epo:39/50, batch_idx_tr:293/293, WAR_te:53.08%, UAR_te:44.03%
+[Sat Apr 11 21:29:53 2026] [Train] epo:40/50, batch_idx_tr:293/293, running_loss_tr:0.04, train acc:98.49%
+[Sat Apr 11 21:30:08 2026] [Test] epo:40/50, batch_idx_tr:293/293, WAR_te:53.42%, UAR_te:43.59%
+[Sat Apr 11 21:33:28 2026] [Train] epo:41/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.32%
+[Sat Apr 11 21:33:44 2026] [Test] epo:41/50, batch_idx_tr:293/293, WAR_te:54.96%, UAR_te:45.15%
+[Sat Apr 11 21:37:03 2026] [Train] epo:42/50, batch_idx_tr:293/293, running_loss_tr:0.04, train acc:98.65%
+[Sat Apr 11 21:37:18 2026] [Test] epo:42/50, batch_idx_tr:293/293, WAR_te:53.85%, UAR_te:42.49%
+[Sat Apr 11 21:40:37 2026] [Train] epo:43/50, batch_idx_tr:293/293, running_loss_tr:0.02, train acc:99.18%
+[Sat Apr 11 21:40:53 2026] [Test] epo:43/50, batch_idx_tr:293/293, WAR_te:51.28%, UAR_te:42.58%
+[Sat Apr 11 21:44:12 2026] [Train] epo:44/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.40%
+[Sat Apr 11 21:44:27 2026] [Test] epo:44/50, batch_idx_tr:293/293, WAR_te:51.92%, UAR_te:39.64%
+[Sat Apr 11 21:47:46 2026] [Train] epo:45/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.31%
+[Sat Apr 11 21:48:02 2026] [Test] epo:45/50, batch_idx_tr:293/293, WAR_te:53.03%, UAR_te:42.80%
+[Sat Apr 11 21:51:21 2026] [Train] epo:46/50, batch_idx_tr:293/293, running_loss_tr:0.04, train acc:98.56%
+[Sat Apr 11 21:51:36 2026] [Test] epo:46/50, batch_idx_tr:293/293, WAR_te:53.72%, UAR_te:44.32%
+[Sat Apr 11 21:54:55 2026] [Train] epo:47/50, batch_idx_tr:293/293, running_loss_tr:0.04, train acc:98.71%
+[Sat Apr 11 21:55:11 2026] [Test] epo:47/50, batch_idx_tr:293/293, WAR_te:52.14%, UAR_te:43.84%
+[Sat Apr 11 21:58:30 2026] [Train] epo:48/50, batch_idx_tr:293/293, running_loss_tr:0.05, train acc:98.25%
+[Sat Apr 11 21:58:45 2026] [Test] epo:48/50, batch_idx_tr:293/293, WAR_te:54.96%, UAR_te:44.25%
+[Sat Apr 11 22:02:04 2026] [Train] epo:49/50, batch_idx_tr:293/293, running_loss_tr:0.03, train acc:99.08%
+[Sat Apr 11 22:02:19 2026] [Test] epo:49/50, batch_idx_tr:293/293, WAR_te:52.91%, UAR_te:43.54%
+[Sat Apr 11 22:05:39 2026] [Train] epo:50/50, batch_idx_tr:293/293, running_loss_tr:0.02, train acc:99.48%
+[Sat Apr 11 22:05:55 2026] [Test] epo:50/50, batch_idx_tr:293/293, WAR_te:55.21%, UAR_te:44.61%
