@@ -109,7 +109,7 @@ if __name__ == "__main__":
     if p.config is not None:
         with open(p.config, 'r') as f:
             #default_args = yaml.load(f)
-            #Change this line of code to be more compatible
+            
             default_args = yaml.load(f, Loader=yaml.FullLoader)
         key = vars(p).keys()
         for k in default_args.keys():
