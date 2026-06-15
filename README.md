@@ -203,5 +203,4 @@ Zengqun Zhao, Qingshan Liu. *Former-DFER: Dynamic Facial Expression Recognition 
 
 Βασίλης Γκουργκούτας
 Πανεπιστήμιο Πατρών, Τμήμα Μηχανικών Η/Υ & Πληροφορικής
-Επιβλέπων: [συμπληρώστε όνομα]
 Έτος: 2026
